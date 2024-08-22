@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="project1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="con1">
+        <h1>Generate a</h1>
+        <h2>Random Password</h2>
+        <div class="line"></div>
+        <div class="inp">
+          <input type="text" id="password" placeholder="Password" />
+          <i class="fa-regular fa-copy fa-2xl" onclick="copyPassword()"></i>
+        </div>
+        <button onclick="createPassword()">
+                <i class="fa-solid fa-bolt fa-xl"></i>
+                <p>Generate Password</p>
+        </button>
+      </div>
+    </div>
+
+    <script src="project1.js"></script>
+  </body>
+</html>
